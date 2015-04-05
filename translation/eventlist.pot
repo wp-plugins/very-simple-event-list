@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.0\n"
+"Project-Id-Version: Very Simple Event List v1.1\n"
 "POT-Creation-Date: 2015-03-28 19:24+0100\n"
 "PO-Revision-Date: 2015-03-28 19:26+0100\n"
 "Last-Translator: \n"
@@ -36,7 +36,7 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vsel.php:0
 #@ eventlist
-msgid "1.0"
+msgid "1.1"
 msgstr ""
 
 #: vsel.php:44
@@ -128,8 +128,19 @@ msgstr ""
 msgid "Location: "
 msgstr ""
 
-#: vsel_shortcode.php:50
+#: vsel_shortcode.php:82
 #@ eventlist
 msgid "There are no upcoming events."
 msgstr ""
+
+#: vsel_shortcode.php:74
+#@ eventlist
+msgid "&laquo; Future Events"
+msgstr ""
+
+#: vsel_shortcode.php:75
+#@ eventlist
+msgid "Present Events &raquo;"
+msgstr ""
+
 

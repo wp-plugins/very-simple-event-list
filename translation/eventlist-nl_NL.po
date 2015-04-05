@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.0\n"
+"Project-Id-Version: Very Simple Event List v1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-29 11:33:07+0000\n"
+"PO-Revision-Date: 2015-04-05 11:23:05+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,12 +36,6 @@ msgstr ""
 #: vsel.php:0
 #@ eventlist
 msgid "http://www.guidovanderleest.nl"
-msgstr ""
-
-#. translators: plugin header field 'Version'
-#: vsel.php:0
-#@ eventlist
-msgid "1.0"
 msgstr ""
 
 #. translators: plugin header field 'Description'
@@ -106,17 +100,17 @@ msgstr "Geen events gevonden in Prullenbak"
 msgid "Event Info"
 msgstr "Event Info"
 
-#: vsel_shortcode.php:30
+#: vsel_shortcode.php:47
 #@ eventlist
 msgid "Date: "
 msgstr "Datum: "
 
-#: vsel_shortcode.php:34
+#: vsel_shortcode.php:52
 #@ eventlist
 msgid "Time: "
 msgstr "Tijd: "
 
-#: vsel_shortcode.php:38
+#: vsel_shortcode.php:58
 #@ eventlist
 msgid "Location: "
 msgstr "Locatie: "
@@ -139,8 +133,24 @@ msgstr "Event Tijd"
 msgid "Event Location"
 msgstr "Event Locatie"
 
-#: vsel_shortcode.php:50
+#: vsel_shortcode.php:82
 #@ eventlist
 msgid "There are no upcoming events."
 msgstr "Er zijn geen aankomende events."
+
+#. translators: plugin header field 'Version'
+#: vsel.php:0
+#@ eventlist
+msgid "1.1"
+msgstr ""
+
+#: vsel_shortcode.php:74
+#@ eventlist
+msgid "&laquo; Future Events"
+msgstr "&laquo; Toekomstige Events"
+
+#: vsel_shortcode.php:75
+#@ eventlist
+msgid "Present Events &raquo;"
+msgstr "Huidige Events &raquo;"
 
