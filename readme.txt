@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,12 @@ Tags: simple, upcoming, event, events, list, custom, post, type, datepicker
 
 
 == Changelog == 
+Version 1.1
+- added featured image
+- added pagination
+- several small adjustments
+- updated FAQ
+
 Version 1.0
 - first stable release
 
@@ -17,7 +23,7 @@ Version 1.0
 == DESCRIPTION ==
 This is a very simple plugin to add a list of your upcoming events in your WordPress blog. 
 
-Besides the default title and description it only contains event date, event time and event location. So no event categories or event tags. That's it.
+Besides the default title and description it only contains event date, event time, event location and featured image. So no event categories or event tags. That's it.
 
 Use shortcode [vsel] to display your upcoming events on a page.
 
@@ -38,15 +44,24 @@ Guido
 
 
 == INSTALLATION == 
-After installation go to Events and start adding your events. On right side you can set event date, event time and event location. 
+After installation go to Events and start adding your events. On right side you can set event date, event time, event location and featured image. 
 
 Use shortcode [vsel] to display your upcoming events on a page.
 
 
 == Frequently Asked Questions ==
 = How can I change date format in US format? =
-Very Simple Event List plugin uses the European date format in frontend and backend (day/month/year).
+VSEL plugin uses the European date format in frontend and backend (day/month/year).
 You can change this for frontend in file 'vsel_shortcode.php' by changing 'j F Y' into 'Y F j' (year/month/day).
+
+= How can I set number of events on a page? =
+VSEL plugin uses the number set in WP dashboard Settings > Reading.
+
+= Can I leave event time and event location blank?  =
+Yes, event time, event location and featured image are not required fields.
+
+= Where are my past events? =
+VSEL only lists upcoming (and today's) events in frontend.
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.

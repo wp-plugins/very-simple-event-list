@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Event List
  * Description: This is a very simple plugin to add a list of your upcoming events in your WordPress blog. For more info please check readme file.
- * Version: 1.0
+ * Version: 1.1
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -60,7 +60,7 @@ function vsel_custom_postype() {
 		'show_in_nav_menus' => false, 
 		'show_ui' => true, 
 		'capability_type' => 'post', 
-		'supports'=> array('title', 'editor'), 
+		'supports'=> array('title', 'thumbnail', 'editor'), 
 	); 
 register_post_type( 'event', $vsel_args); 
 }
@@ -96,7 +96,7 @@ function vsel_metabox_callback( $post ) {
 	// metabox fields
 	?> 
 	<p><label for="vsel-date"><?php _e( 'Event Date', 'eventlist' ); ?></label> 
-	<input class="widefat" id="vsel-date" type="text" name="vsel-date" maxlength="10" placeholder="Date format: 20-10-2015" value="<?php echo date( 'd-m-Y', $event_date ); ?>" /></p>
+	<input class="widefat" id="vsel-date" type="text" name="vsel-date" required maxlength="10" placeholder="Date format: 20-10-2015" value="<?php echo date( 'd-m-Y', $event_date ); ?>" /></p>
 	<p><label for="vsel-time"><?php _e( 'Event Time', 'eventlist' ); ?></label> 
 	<input class="widefat" id="vsel-time" type="text" name="vsel-time" maxlength="50" placeholder="Example: 16.00 - 18.00" value="<?php echo $event_time; ?>" /></p>
 	<p><label for="vsel-location"><?php _e( 'Event Location', 'eventlist' ); ?></label> 
@@ -168,6 +168,18 @@ function vsel_custom_columns_content( $column_name, $post_id ) {
 	} 
 } 
 add_action( 'manage_event_posts_custom_column', 'vsel_custom_columns_content', 10, 2 );
+
+
+// add class to pagination
+function vsel_prev_posts() { 
+	return 'class="prev"'; 
+} 
+add_filter('previous_posts_link_attributes', 'vsel_prev_posts'); 
+
+function vsel_next_posts() { 
+	return 'class="next"'; 
+}
+add_filter('next_posts_link_attributes', 'vsel_next_posts'); 
 
 
 include 'vsel_shortcode.php';
