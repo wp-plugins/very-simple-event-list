@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.1
+Version: 1.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, upcoming, event, events, list, custom, post, type, datepicker
 
 
 == Changelog == 
+Version 1.2
+- request: add field for event URL (link)
+- updated FAQ
+- updated language files
+
 Version 1.1
 - added featured image
 - added pagination
@@ -23,7 +28,7 @@ Version 1.0
 == DESCRIPTION ==
 This is a very simple plugin to add a list of your upcoming events in your WordPress blog. 
 
-Besides the default title and description it only contains event date, event time, event location and featured image. So no event categories or event tags. That's it.
+Besides the default title and description it contains event date, event time, event location, event URL and featured image. So no event categories or event tags. That's it.
 
 Use shortcode [vsel] to display your upcoming events on a page.
 
@@ -33,7 +38,7 @@ Dutch translation included. More translations are very welcome! Please contact m
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-I used this tutorial for developing the Very Simple Event List plugin:
+I have used this tutorial for developing the Very Simple Event List plugin:
 
 http://code.tutsplus.com/tutorials/creating-upcoming-events-plugin-in-wordpress-custom-post-type-and-the-dashboard--wp-35404
 
@@ -44,7 +49,7 @@ Guido
 
 
 == INSTALLATION == 
-After installation go to Events and start adding your events. On right side you can set event date, event time, event location and featured image. 
+After installation go to Events and start adding your events. On right side you can set event date, event time, event URL, event location and featured image. 
 
 Use shortcode [vsel] to display your upcoming events on a page.
 
@@ -58,10 +63,13 @@ You can change this for frontend in file 'vsel_shortcode.php' by changing 'j F Y
 VSEL plugin uses the number set in WP dashboard Settings > Reading.
 
 = Can I leave event time and event location blank?  =
-Yes, event time, event location and featured image are not required fields.
+Yes, event time, event location, event URL and featured image are not required fields.
+
+= How do I enter an event website URL (link)? =
+Enter domain without this part: 'http://www.'. Example: wordpress.org
 
 = Where are my past events? =
-VSEL only lists upcoming (and today's) events in frontend.
+VSEL only lists upcoming (and today's) events in frontend. But past events are still listed in backend.
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.

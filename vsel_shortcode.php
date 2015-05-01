@@ -36,6 +36,7 @@ echo '<div id="vsel">';
 		$event_date = get_post_meta( get_the_ID(), 'event-date', true ); 
 		$event_time = get_post_meta( get_the_ID(), 'event-time', true ); 
 		$event_location = get_post_meta( get_the_ID(), 'event-location', true ); 
+		$event_link = get_post_meta( get_the_ID(), 'event-link', true ); 
 
 		// display the event list
 		echo '<div class="vsel-content">';
@@ -57,6 +58,16 @@ echo '<div id="vsel">';
 					echo '<p>';
 					_e( 'Location: ', 'eventlist' ); 
 					echo $event_location; 
+					echo '</p>';
+				}
+				if(!empty($event_link)){
+					echo '<p>';
+					_e( 'URL: ', 'eventlist' ); 
+					echo '<a href="http://www.';
+					echo $event_link;
+					echo '" target="_blank">'; 
+					echo $event_link;
+					echo '</a>';
 					echo '</p>';
 				}
 			echo '</div>';

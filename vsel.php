@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Very Simple Event List
- * Description: This is a very simple plugin to add a list of your upcoming events in your WordPress blog. For more info please check readme file.
- * Version: 1.1
+ * Description: This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file.
+ * Version: 1.2
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -89,6 +89,7 @@ function vsel_metabox_callback( $post ) {
 	$event_date = get_post_meta( $post->ID, 'event-date', true ); 
 	$event_time = get_post_meta( $post->ID, 'event-time', true ); 
 	$event_location = get_post_meta( $post->ID, 'event-location', true ); 
+	$event_link = get_post_meta( $post->ID, 'event-link', true ); 
 
 	// if there is saved date retrieve it, else set it to the current time 
 	$event_date = ! empty( $event_date ) ? $event_date : time(); 
@@ -101,6 +102,8 @@ function vsel_metabox_callback( $post ) {
 	<input class="widefat" id="vsel-time" type="text" name="vsel-time" maxlength="50" placeholder="Example: 16.00 - 18.00" value="<?php echo $event_time; ?>" /></p>
 	<p><label for="vsel-location"><?php _e( 'Event Location', 'eventlist' ); ?></label> 
 	<input class="widefat" id="vsel-location" type="text" name="vsel-location" maxlength="50" placeholder="Example: Times Square" value="<?php echo $event_location; ?>" /></p>
+	<p><label for="vsel-link"><?php _e( 'Event URL', 'eventlist' ); ?></label> 
+	<input class="widefat" id="vsel-link" type="text" name="vsel-link" maxlength="50" placeholder="Example: wordpress.org" value="<?php echo $event_link; ?>" /></p>
 	<?php 
 }
 
@@ -138,6 +141,9 @@ function vsel_save_event_info( $post_id ) {
 	} 
 	if ( isset( $_POST['vsel-location'] ) ) { 
 		update_post_meta( $post_id, 'event-location', sanitize_text_field( $_POST['vsel-location'] ) ); 
+	} 
+	if ( isset( $_POST['vsel-link'] ) ) { 
+		update_post_meta( $post_id, 'event-link', sanitize_text_field( $_POST['vsel-link'] ) ); 
 	} 
 } 
 add_action( 'save_post', 'vsel_save_event_info' );
