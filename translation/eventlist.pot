@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.1\n"
+"Project-Id-Version: Very Simple Event List v1.2\n"
 "POT-Creation-Date: 2015-03-28 19:24+0100\n"
 "PO-Revision-Date: 2015-03-28 19:26+0100\n"
 "Last-Translator: \n"
@@ -18,7 +18,7 @@ msgstr ""
 #. translators: plugin header field 'Description'
 #: vsel.php:0
 #@ eventlist
-msgid "This is a very simple plugin to add a list of your upcoming events in your WordPress blog. For more info please check readme file."
+msgid "This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file."
 msgstr ""
 
 #. translators: plugin header field 'Author'
@@ -36,7 +36,7 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vsel.php:0
 #@ eventlist
-msgid "1.1"
+msgid "1.2"
 msgstr ""
 
 #: vsel.php:44
@@ -95,52 +95,62 @@ msgstr ""
 msgid "Event Info"
 msgstr ""
 
-#: vsel.php:98
-#: vsel.php:149
+#: vsel.php:99
+#: vsel.php:155
 #@ eventlist
 msgid "Event Date"
 msgstr ""
 
-#: vsel.php:100
-#: vsel.php:150
+#: vsel.php:101
+#: vsel.php:156
 #@ eventlist
 msgid "Event Time"
 msgstr ""
 
-#: vsel.php:102
-#: vsel.php:151
+#: vsel.php:103
+#: vsel.php:157
 #@ eventlist
 msgid "Event Location"
 msgstr ""
 
-#: vsel_shortcode.php:29
+#: vsel.php:105
+#@ eventlist
+msgid "Event URL"
+msgstr ""
+
+#: vsel_shortcode.php:48
 #@ eventlist
 msgid "Date: "
 msgstr ""
 
-#: vsel_shortcode.php:33
+#: vsel_shortcode.php:53
 #@ eventlist
 msgid "Time: "
 msgstr ""
 
-#: vsel_shortcode.php:37
+#: vsel_shortcode.php:59
 #@ eventlist
 msgid "Location: "
 msgstr ""
 
-#: vsel_shortcode.php:82
+#: vsel_shortcode.php:65
 #@ eventlist
-msgid "There are no upcoming events."
+msgid "URL: "
 msgstr ""
 
-#: vsel_shortcode.php:74
+#: vsel_shortcode.php:85
 #@ eventlist
 msgid "&laquo; Future Events"
 msgstr ""
 
-#: vsel_shortcode.php:75
+#: vsel_shortcode.php:86
 #@ eventlist
 msgid "Present Events &raquo;"
+msgstr ""
+
+#: vsel_shortcode.php:93
+#@ eventlist
+msgid "There are no upcoming events."
 msgstr ""
 
 
