@@ -71,7 +71,7 @@ VSEL plugin uses the number set in WP dashboard Settings > Reading.
 Yes, event time, event location, event URL and featured image are not required fields.
 
 = How do I enter an event website URL (link)? =
-Enter domain like this: www.wordpress.org or wordpress.org (this part will be auto added if missing: http://)
+You can enter a domain like this: wordpress.org (this part will be auto added if not entered: http://)
 
 = Where are my past events? =
 VSEL only lists upcoming (and today's) events in frontend. But past events are still listed in backend.
