@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Event List
  * Description: This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file.
- * Version: 1.2
+ * Version: 1.3
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -143,7 +143,7 @@ function vsel_save_event_info( $post_id ) {
 		update_post_meta( $post_id, 'event-location', sanitize_text_field( $_POST['vsel-location'] ) ); 
 	} 
 	if ( isset( $_POST['vsel-link'] ) ) { 
-		update_post_meta( $post_id, 'event-link', sanitize_text_field( $_POST['vsel-link'] ) ); 
+		update_post_meta( $post_id, 'event-link', esc_url( $_POST['vsel-link'] ) ); 
 	} 
 } 
 add_action( 'save_post', 'vsel_save_event_info' );

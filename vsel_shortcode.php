@@ -62,11 +62,11 @@ echo '<div id="vsel">';
 				}
 				if(!empty($event_link)){
 					echo '<p>';
-					_e( 'URL: ', 'eventlist' ); 
-					echo '<a href="http://www.';
+					_e( 'More info: ', 'eventlist' ); 
+					echo '<a href="';
 					echo $event_link;
 					echo '" target="_blank">'; 
-					echo $event_link;
+					_e( 'click here', 'eventlist' ); 
 					echo '</a>';
 					echo '</p>';
 				}
@@ -82,8 +82,8 @@ echo '<div id="vsel">';
 		endwhile; 
 	
 		// pagination
-		next_posts_link(  __( '&laquo; Future Events', 'eventlist' ), $vsel_events->max_num_pages ); 
-		previous_posts_link( __( 'Present Events &raquo;', 'eventlist' ) ); 
+		next_posts_link(  __( '&laquo; Next Events', 'eventlist' ), $vsel_events->max_num_pages ); 
+		previous_posts_link( __( 'Previous Events &raquo;', 'eventlist' ) ); 
 
 		wp_reset_postdata(); 
 
