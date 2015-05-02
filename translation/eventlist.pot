@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.2\n"
+"Project-Id-Version: Very Simple Event List v1.3\n"
 "POT-Creation-Date: 2015-03-28 19:24+0100\n"
 "PO-Revision-Date: 2015-03-28 19:26+0100\n"
 "Last-Translator: \n"
@@ -135,22 +135,26 @@ msgstr ""
 
 #: vsel_shortcode.php:65
 #@ eventlist
-msgid "URL: "
+msgid "More info: "
+msgstr ""
+
+#: vsel_shortcode.php:69
+#@ eventlist
+msgid "click here"
 msgstr ""
 
 #: vsel_shortcode.php:85
 #@ eventlist
-msgid "&laquo; Future Events"
+msgid "&laquo; Next Events"
 msgstr ""
 
 #: vsel_shortcode.php:86
 #@ eventlist
-msgid "Present Events &raquo;"
+msgid "Previous Events &raquo;"
 msgstr ""
 
 #: vsel_shortcode.php:93
 #@ eventlist
 msgid "There are no upcoming events."
 msgstr ""
-
 

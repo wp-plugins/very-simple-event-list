@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.2\n"
+"Project-Id-Version: Very Simple Event List v1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-05-01 11:33:13+0000\n"
+"PO-Revision-Date: 2015-05-02 11:44:15+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,10 +121,15 @@ msgstr "Tijd: "
 msgid "Location: "
 msgstr "Locatie: "
 
-#: vsel_shortcode.php:65
+#: vsel_shortcode.php:69
 #@ eventlist
-msgid "URL: "
-msgstr "URL: "
+msgid "click here"
+msgstr "klik hier"
+
+#: vsel_shortcode.php:85
+#@ eventlist
+msgid "&laquo; Next Events"
+msgstr "&laquo; Volgende Events"
 
 #: vsel.php:99
 #: vsel.php:155
@@ -154,13 +159,13 @@ msgstr "Event URL"
 msgid "There are no upcoming events."
 msgstr "Er zijn geen aankomende events."
 
-#: vsel_shortcode.php:85
+#: vsel_shortcode.php:65
 #@ eventlist
-msgid "&laquo; Future Events"
-msgstr "&laquo; Toekomstige Events"
+msgid "More info: "
+msgstr "Meer info: "
 
 #: vsel_shortcode.php:86
 #@ eventlist
-msgid "Present Events &raquo;"
-msgstr "Huidige Events &raquo;"
+msgid "Previous Events &raquo;"
+msgstr "Vorige Events &raquo;"
 
