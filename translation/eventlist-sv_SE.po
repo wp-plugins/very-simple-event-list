@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Event List v1.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-05-08 12:19:05+0000\n"
-"Last-Translator: Guido van der Leest\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-03-28 19:24+0100\n"
+"PO-Revision-Date: 2015-05-08 13:46:22+0000\n"
+"Last-Translator: Cecilia Svensson <cecilia@vaja.se>\n"
+"Language-Team: Cecilia Svensson <cs@righthandoffice.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: CSL v1.x\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: \n"
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
@@ -25,6 +25,12 @@ msgstr ""
 #@ eventlist
 msgid "Very Simple Event List"
 msgstr ""
+
+#. translators: plugin header field 'Description'
+#: vsel.php:0
+#@ eventlist
+msgid "This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file."
+msgstr "Detta är en väldigt enkel plugin för att lista kommande evenemang. Använd koden [vsel] på sidan där du vill visa din evenemangslista. För mer information läs readme-filen."
 
 #. translators: plugin header field 'Author'
 #: vsel.php:0
@@ -38,67 +44,84 @@ msgstr ""
 msgid "http://www.guidovanderleest.nl"
 msgstr ""
 
-#. translators: plugin header field 'Description'
-#: vsel.php:0
-#@ eventlist
-msgid "This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file."
-msgstr "Dit is een zeer eenvoudige plugin om een lijst van komende events te tonen. Gebruik shortcode [vsel] om je komende events op een pagina te tonen. Voor meer info zie readme bestand."
-
 #: vsel.php:44
 #: vsel.php:56
 #@ eventlist
 msgid "Events"
-msgstr "Events"
+msgstr "Evenemang"
 
 #: vsel.php:45
 #@ eventlist
 msgid "Event"
-msgstr "Event"
+msgstr "Evenemang"
 
 #: vsel.php:46
 #@ eventlist
 msgid "Add New"
-msgstr "Nieuwe Toevoegen"
+msgstr "Lägg till nytt"
 
 #: vsel.php:47
 #@ eventlist
 msgid "Add New Event"
-msgstr "Nieuw Event Toevoegen"
+msgstr "Lägg till nytt evenemang"
 
 #: vsel.php:48
 #@ eventlist
 msgid "Edit Event"
-msgstr "Bewerk Event"
+msgstr "Uppdatera evenemang"
 
 #: vsel.php:49
 #@ eventlist
 msgid "New Event"
-msgstr "Nieuw Event"
+msgstr "Nytt evenemang"
 
 #: vsel.php:50
 #@ eventlist
 msgid "View Event"
-msgstr "Bekijk Event"
+msgstr "Visa evenemang"
 
 #: vsel.php:51
 #@ eventlist
 msgid "Search Events"
-msgstr "Zoek Events"
+msgstr "Sök evenemang"
 
 #: vsel.php:52
 #@ eventlist
 msgid "No events found"
-msgstr "Geen events gevonden"
+msgstr "Inga evenemang hittades"
 
 #: vsel.php:53
 #@ eventlist
 msgid "No events found in Trash"
-msgstr "Geen events gevonden in Prullenbak"
+msgstr "Inga evenemang hittades i papperskorgen"
 
 #: vsel.php:74
 #@ eventlist
 msgid "Event Info"
-msgstr "Event Info"
+msgstr "Evenemangsinformation"
+
+#: vsel.php:99
+#: vsel.php:155
+#@ eventlist
+msgid "Event Date"
+msgstr "Evenemangsdatum"
+
+#: vsel.php:101
+#: vsel.php:156
+#@ eventlist
+msgid "Event Time"
+msgstr "Evenemangstid"
+
+#: vsel.php:103
+#: vsel.php:157
+#@ eventlist
+msgid "Event Location"
+msgstr "Evenemangsplats"
+
+#: vsel.php:105
+#@ eventlist
+msgid "Event URL"
+msgstr "Evenemang URL"
 
 #: vsel_past_events_shortcode.php:48
 #: vsel_shortcode.php:48
@@ -110,66 +133,43 @@ msgstr "Datum: "
 #: vsel_shortcode.php:53
 #@ eventlist
 msgid "Time: "
-msgstr "Tijd: "
+msgstr "Tid: "
 
 #: vsel_past_events_shortcode.php:59
 #: vsel_shortcode.php:59
 #@ eventlist
 msgid "Location: "
-msgstr "Locatie: "
-
-#: vsel_past_events_shortcode.php:69
-#: vsel_shortcode.php:69
-#@ eventlist
-msgid "click here"
-msgstr "klik hier"
-
-#: vsel_past_events_shortcode.php:85
-#: vsel_shortcode.php:85
-#@ eventlist
-msgid "&laquo; Next Events"
-msgstr "&laquo; Volgende Events"
-
-#: vsel.php:99
-#: vsel.php:155
-#@ eventlist
-msgid "Event Date"
-msgstr "Event Datum"
-
-#: vsel.php:101
-#: vsel.php:156
-#@ eventlist
-msgid "Event Time"
-msgstr "Event Tijd"
-
-#: vsel.php:103
-#: vsel.php:157
-#@ eventlist
-msgid "Event Location"
-msgstr "Event Locatie"
-
-#: vsel.php:105
-#@ eventlist
-msgid "Event URL"
-msgstr "Event URL"
-
-#: vsel_past_events_shortcode.php:93
-#: vsel_shortcode.php:93
-#@ eventlist
-msgid "There are no upcoming events."
-msgstr "Er zijn geen aankomende events."
+msgstr "Plats: "
 
 #: vsel_past_events_shortcode.php:65
 #: vsel_shortcode.php:65
 #@ eventlist
 msgid "More info: "
-msgstr "Meer info: "
+msgstr "Mer information: "
+
+#: vsel_past_events_shortcode.php:69
+#: vsel_shortcode.php:69
+#@ eventlist
+msgid "click here"
+msgstr "klicka här"
+
+#: vsel_past_events_shortcode.php:85
+#: vsel_shortcode.php:85
+#@ eventlist
+msgid "&laquo; Next Events"
+msgstr "&laquo; Nästa evenemang"
 
 #: vsel_past_events_shortcode.php:86
 #: vsel_shortcode.php:86
 #@ eventlist
 msgid "Previous Events &raquo;"
-msgstr "Vorige Events &raquo;"
+msgstr "Tidigare evenemang &raquo;"
+
+#: vsel_past_events_shortcode.php:93
+#: vsel_shortcode.php:93
+#@ eventlist
+msgid "There are no upcoming events."
+msgstr "Det finns inga kommande evenemang."
 
 #. translators: plugin header field 'Version'
 #: vsel.php:0
