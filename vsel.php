@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Event List
  * Description: This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file.
- * Version: 1.3
+ * Version: 1.4
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -97,13 +97,13 @@ function vsel_metabox_callback( $post ) {
 	// metabox fields
 	?> 
 	<p><label for="vsel-date"><?php _e( 'Event Date', 'eventlist' ); ?></label> 
-	<input class="widefat" id="vsel-date" type="text" name="vsel-date" required maxlength="10" placeholder="Date format: 20-10-2015" value="<?php echo date( 'd-m-Y', $event_date ); ?>" /></p>
+	<input class="widefat" id="vsel-date" type="text" name="vsel-date" required maxlength="10" placeholder="Date format: 20-10-2015" value="<?php echo date( 'd-m-Y', sanitize_text_field( $event_date ) ); ?>" /></p>
 	<p><label for="vsel-time"><?php _e( 'Event Time', 'eventlist' ); ?></label> 
-	<input class="widefat" id="vsel-time" type="text" name="vsel-time" maxlength="50" placeholder="Example: 16.00 - 18.00" value="<?php echo $event_time; ?>" /></p>
+	<input class="widefat" id="vsel-time" type="text" name="vsel-time" maxlength="150" placeholder="Example: 16.00 - 18.00" value="<?php echo sanitize_text_field( $event_time ); ?>" /></p>
 	<p><label for="vsel-location"><?php _e( 'Event Location', 'eventlist' ); ?></label> 
-	<input class="widefat" id="vsel-location" type="text" name="vsel-location" maxlength="50" placeholder="Example: Times Square" value="<?php echo $event_location; ?>" /></p>
+	<input class="widefat" id="vsel-location" type="text" name="vsel-location" maxlength="150" placeholder="Example: Times Square" value="<?php echo sanitize_text_field( $event_location ); ?>" /></p>
 	<p><label for="vsel-link"><?php _e( 'Event URL', 'eventlist' ); ?></label> 
-	<input class="widefat" id="vsel-link" type="text" name="vsel-link" maxlength="50" placeholder="Example: wordpress.org" value="<?php echo $event_link; ?>" /></p>
+	<input class="widefat" id="vsel-link" type="text" name="vsel-link" maxlength="150" placeholder="Example: wordpress.org" value="<?php echo esc_url( $event_link ); ?>" /></p>
 	<?php 
 }
 
@@ -143,7 +143,7 @@ function vsel_save_event_info( $post_id ) {
 		update_post_meta( $post_id, 'event-location', sanitize_text_field( $_POST['vsel-location'] ) ); 
 	} 
 	if ( isset( $_POST['vsel-link'] ) ) { 
-		update_post_meta( $post_id, 'event-link', esc_url( $_POST['vsel-link'] ) ); 
+		update_post_meta( $post_id, 'event-link', esc_url_raw( $_POST['vsel-link'] ) ); 
 	} 
 } 
 add_action( 'save_post', 'vsel_save_event_info' );
@@ -188,6 +188,8 @@ function vsel_next_posts() {
 add_filter('next_posts_link_attributes', 'vsel_next_posts'); 
 
 
+// include the shortcode files
 include 'vsel_shortcode.php';
+include 'vsel_past_events_shortcode.php';
 
 ?>

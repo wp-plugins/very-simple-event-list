@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.3
+Version: 1.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,13 @@ Tags: simple, upcoming, event, events, list, custom, post, type, datepicker
 
 
 == Changelog == 
+Version 1.4
+- request: display past events too
+- added file vsel_past_events_shortcode.php: now you can display past events too
+- file vsel.php: increased max input from 50 to 150 characters
+- file vsel.php: added sanitize_text_field and esc_url to input
+- added Swedish translation (thanks Cecilia Svensson)
+
 Version 1.3
 - file vsel.php: changed URL validation from sanitize_text_field into esc_url
 - file vsel_shortcode.php: changed display of URL in frontend
@@ -37,8 +44,10 @@ Besides the default title and description it contains event date, event time, ev
 
 Use shortcode [vsel] to display your upcoming events on a page.
 
+Use shortcode [vsel_past_events] to display your past events on a page.
+
 = Translation =
-Dutch translation included. More translations are very welcome! Please contact me via my website.
+Dutch and Swedish translation included. More translations are very welcome! Please contact me via my website.
 
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
@@ -54,15 +63,17 @@ Guido
 
 
 == INSTALLATION == 
-After installation go to Events and start adding your events. On right side you can set event date, event time, event URL, event location and featured image. 
+After installation go to Events and start adding your events. On right side (Event Info) you can set event date, event time, event location, event URL, and featured image. 
 
 Use shortcode [vsel] to display your upcoming events on a page.
+
+Use shortcode [vsel_past_events] to display your past events on a page.
 
 
 == Frequently Asked Questions ==
 = How can I change date format in US format? =
 VSEL plugin uses the European date format in frontend and backend (day/month/year).
-You can change this for frontend in file 'vsel_shortcode.php' by changing 'j F Y' into 'Y F j' (year/month/day).
+You can change this for frontend in files 'vsel_shortcode.php' and 'vsel_past_events_shortcode.php' by changing 'j F Y' into 'Y F j' (year/month/day).
 
 = How can I set number of events on a page? =
 VSEL plugin uses the number set in WP dashboard Settings > Reading.
@@ -73,8 +84,9 @@ Yes, event time, event location, event URL and featured image are not required f
 = How do I enter an event website URL (link)? =
 You can enter a domain like this: wordpress.org (the http part will be auto added if not entered).
 
-= Where are my past events? =
-VSEL only lists upcoming (and today's) events in frontend. But past events are still listed in backend.
+= Can I list both upcoming and past events? =
+You can list upcoming or past events in frontend using a different shortcode. 
+You should not use both shortcodes on the same page.
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
