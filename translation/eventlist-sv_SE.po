@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Very Simple Event List v1.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-28 19:24+0100\n"
-"PO-Revision-Date: 2015-05-08 13:46:22+0000\n"
+"PO-Revision-Date: 2015-05-12 20:17:05+0000\n"
 "Last-Translator: Cecilia Svensson <cecilia@vaja.se>\n"
 "Language-Team: Cecilia Svensson <cs@righthandoffice.com>\n"
 "MIME-Version: 1.0\n"
@@ -163,13 +163,17 @@ msgstr "&laquo; Nästa evenemang"
 #: vsel_shortcode.php:86
 #@ eventlist
 msgid "Previous Events &raquo;"
-msgstr "Tidigare evenemang &raquo;"
+msgstr "Föregående evenemang &raquo;"
 
-#: vsel_past_events_shortcode.php:93
 #: vsel_shortcode.php:93
 #@ eventlist
 msgid "There are no upcoming events."
 msgstr "Det finns inga kommande evenemang."
+
+#: vsel_past_events_shortcode.php:93
+#@ eventlist
+msgid "There are no past events."
+msgstr "Det finns inga tidigare evenemang."
 
 #. translators: plugin header field 'Version'
 #: vsel.php:0
