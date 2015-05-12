@@ -90,7 +90,7 @@ echo '<div id="vsel">';
 		else:
  
 		echo '<p>';
-		_e('There are no upcoming events.', 'eventlist');
+		_e('There are no past events.', 'eventlist');
 		echo '</p>';
 	endif; 
 
