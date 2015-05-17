@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Event List
  * Description: This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file.
- * Version: 1.4
+ * Version: 1.5
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -162,7 +162,7 @@ add_filter( 'manage_edit-event_columns', 'vsel_custom_columns', 10 );
 function vsel_custom_columns_content( $column_name, $post_id ) { 
 	if ( 'event_date' == $column_name ) { 
 		$date = get_post_meta( $post_id, 'event-date', true ); 
-		echo date_i18n( 'j F Y', $date );  
+		echo date( 'd-m-Y', $date );  
 	} 
 	if ( 'event_time' == $column_name ) { 
 		$time = get_post_meta( $post_id, 'event-time', true ); 

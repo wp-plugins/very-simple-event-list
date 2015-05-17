@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.4
+Version: 1.5
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, upcoming, event, events, list, custom, post, type, datepicker
 
 
 == Changelog == 
+Version 1.5
+- file vsel.php: changed date format in backend
+- updated FAQ
+
 Version 1.4
 - request: display past events too
 - added file vsel_past_events_shortcode.php: now you can display past events too
@@ -46,6 +50,9 @@ Use shortcode [vsel] to display your upcoming events on a page.
 
 Use shortcode [vsel_past_events] to display your past events on a page.
 
+Question? Please take a look at the FAQ section.
+
+
 = Translation =
 Dutch and Swedish translation included. More translations are very welcome! Please contact me via my website.
 
@@ -72,8 +79,13 @@ Use shortcode [vsel_past_events] to display your past events on a page.
 
 == Frequently Asked Questions ==
 = How can I change date format in US format? =
-VSEL plugin uses the European date format in frontend and backend (day/month/year).
-You can change this for frontend in files 'vsel_shortcode.php' and 'vsel_past_events_shortcode.php' by changing 'j F Y' into 'Y F j' (year/month/day).
+VSEL plugin uses the European date format in frontend and backend (day/month/year). To change this into US date format (year/month/day):
+
+For backend open folder 'js' and file 'vsel_datepicker' and change date format in: 'yy-mm-dd'.
+
+And open file 'vsel' and change date format (2x) in: 'Y-m-d'.
+
+For frontend open files 'vsel_shortcode' and 'vsel_past_events_shortcode' and change date format in: 'F jS, Y'.
 
 = How can I set number of events on a page? =
 VSEL plugin uses the number set in WP dashboard Settings > Reading.
@@ -85,8 +97,13 @@ Yes, event time, event location, event URL and featured image are not required f
 You can enter a domain like this: wordpress.org (the http part will be auto added if not entered).
 
 = Can I list both upcoming and past events? =
-You can list upcoming or past events in frontend using a different shortcode. 
+You can list upcoming or past events in frontend using different shortcodes. 
 You should not use both shortcodes on the same page.
+
+= How do I list upcoming and past events in a template file? =
+For upcoming events use this: <?php echo do_shortcode( '[vsel]' ); ?> 
+
+For past events use this: <?php echo do_shortcode( '[vsel_past_events]' ); ?>
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
