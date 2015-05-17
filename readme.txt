@@ -101,9 +101,9 @@ You can list upcoming or past events in frontend using different shortcodes.
 You should not use both shortcodes on the same page.
 
 = How do I list upcoming and past events in a template file? =
-For upcoming events use this: <?php echo do_shortcode( '[vsel]' ); ?> 
+For upcoming events use this: `<?php echo do_shortcode( '[vsel]' ); ?>` 
 
-For past events use this: <?php echo do_shortcode( '[vsel_past_events]' ); ?>
+For past events use this: `<?php echo do_shortcode( '[vsel_past_events]' ); ?>`
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
