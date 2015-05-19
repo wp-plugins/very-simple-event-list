@@ -112,3 +112,4 @@ Please open a topic in plugin forum or send me a message via my website.
 == Screenshots == 
 1. Very Simple Event List in frontend (using Twenty Fifteen theme).
 2. Very Simple Event List in dashboard.
+3. Very Simple Event List in dashboard.
