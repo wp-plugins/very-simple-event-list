@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.2
 Stable tag: trunk
-Tags: simple, upcoming, event, events, list, custom, post, type, datepicker
+Tags: simple, upcoming, past, event, events, list, custom, post, type, datepicker
 
 
 == Changelog == 
