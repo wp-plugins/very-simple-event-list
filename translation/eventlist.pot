@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.4\n"
+"Project-Id-Version: Very Simple Event List v1.6\n"
 "POT-Creation-Date: 2015-03-28 19:24+0100\n"
 "PO-Revision-Date: 2015-03-28 19:26+0100\n"
 "Last-Translator: \n"
@@ -36,7 +36,7 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vsel.php:0
 #@ eventlist
-msgid "1.4"
+msgid "1.6"
 msgstr ""
 
 #: vsel.php:44

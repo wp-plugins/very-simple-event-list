@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Event List v1.4\n"
+"Project-Id-Version: Very Simple Event List v1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-28 19:24+0100\n"
-"PO-Revision-Date: 2015-05-12 20:17:05+0000\n"
+"PO-Revision-Date: 2015-05-31 11:25:45+0000\n"
 "Last-Translator: Cecilia Svensson <cecilia@vaja.se>\n"
 "Language-Team: Cecilia Svensson <cs@righthandoffice.com>\n"
 "MIME-Version: 1.0\n"
@@ -178,6 +178,6 @@ msgstr "Det finns inga tidigare evenemang."
 #. translators: plugin header field 'Version'
 #: vsel.php:0
 #@ eventlist
-msgid "1.4"
+msgid "1.6"
 msgstr ""
 
