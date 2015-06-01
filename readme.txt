@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.5
+Version: 1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -9,7 +9,11 @@ Stable tag: trunk
 Tags: simple, upcoming, past, event, events, list, custom, post, type, datepicker
 
 
-== Changelog == 
+== Changelog ==
+Version 1.6
+- added German translation (thanks Andrea)
+- updated FAQ
+ 
 Version 1.5
 - file vsel.php: changed date format in backend
 - updated FAQ
@@ -54,7 +58,7 @@ Question? Please take a look at the FAQ section.
 
 
 = Translation =
-Dutch and Swedish translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German and Swedish translation included. More translations are very welcome! Please contact me via my website.
 
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
@@ -70,7 +74,7 @@ Guido
 
 
 == INSTALLATION == 
-After installation go to Events and start adding your events. On right side (Event Info) you can set event date, event time, event location, event URL, and featured image. 
+After installation go to Events and start adding your events. On right side (Event Info) you can set event date, event time, event location, event URL and featured image. 
 
 Use shortcode [vsel] to display your upcoming events on a page.
 
@@ -93,8 +97,8 @@ VSEL plugin uses the number set in WP dashboard Settings > Reading.
 = Can I leave event time, event location and event URL blank?  =
 Yes, event time, event location, event URL and featured image are not required fields.
 
-= How do I enter an event website URL (link)? =
-You can enter a domain like this: wordpress.org (the http part will be auto added if not entered).
+= What's an event URL and how do I enter it? =
+It's just a link to another website for more info. You can enter the complete URL or without the http part (the http part will be auto added if not entered).
 
 = Can I list both upcoming and past events? =
 You can list upcoming or past events in frontend using different shortcodes. 

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Event List
  * Description: This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file.
- * Version: 1.5
+ * Version: 1.6
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
