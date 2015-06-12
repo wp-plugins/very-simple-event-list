@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Very Simple Event List v1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-06-09 16:21:26+0000\n"
+"Last-Translator: Kuda Poltava Team\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: vsel.php:0
+#@ eventlist
+msgid "Very Simple Event List"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: vsel.php:0
+#@ eventlist
+msgid "This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file."
+msgstr "Це дуже простий плагін для відображення списку майбутніх подій. Використовуйте шорткод [vsel] для відображення майбутніх подій на сторінці. Для одержання додаткової інформації, будь ласка, перевірте файл readme."
+
+#. translators: plugin header field 'Author'
+#: vsel.php:0
+#@ eventlist
+msgid "Guido van der Leest"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: vsel.php:0
+#@ eventlist
+msgid "http://www.guidovanderleest.nl"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: vsel.php:0
+#@ eventlist
+msgid "1.6"
+msgstr ""
+
+#: vsel.php:44
+#: vsel.php:56
+#@ eventlist
+msgid "Events"
+msgstr "Події"
+
+#: vsel.php:45
+#@ eventlist
+msgid "Event"
+msgstr "Подія"
+
+#: vsel.php:46
+#@ eventlist
+msgid "Add New"
+msgstr "Додати нову"
+
+#: vsel.php:47
+#@ eventlist
+msgid "Add New Event"
+msgstr "Додати нову Подію"
+
+#: vsel.php:48
+#@ eventlist
+msgid "Edit Event"
+msgstr "Редагувати Подію"
+
+#: vsel.php:49
+#@ eventlist
+msgid "New Event"
+msgstr "Нова Подія"
+
+#: vsel.php:50
+#@ eventlist
+msgid "View Event"
+msgstr "Переглянути Подію"
+
+#: vsel.php:51
+#@ eventlist
+msgid "Search Events"
+msgstr "Пошук Подій"
+
+#: vsel.php:52
+#@ eventlist
+msgid "No events found"
+msgstr "Події не знайдені"
+
+#: vsel.php:53
+#@ eventlist
+msgid "No events found in Trash"
+msgstr "Події не знайдені у Кошику"
+
+#: vsel.php:74
+#@ eventlist
+msgid "Event Info"
+msgstr "Інформація про Подію"
+
+#: vsel.php:99
+#: vsel.php:155
+#@ eventlist
+msgid "Event Date"
+msgstr "Дата Події"
+
+#: vsel.php:101
+#: vsel.php:156
+#@ eventlist
+msgid "Event Time"
+msgstr "Час Події"
+
+#: vsel.php:103
+#: vsel.php:157
+#@ eventlist
+msgid "Event Location"
+msgstr "Місце Події"
+
+#: vsel.php:105
+#@ eventlist
+msgid "Event URL"
+msgstr "URL Події"
+
+#: vsel_past_events_shortcode.php:48
+#: vsel_shortcode.php:48
+#@ eventlist
+msgid "Date: "
+msgstr "Дата: "
+
+#: vsel_past_events_shortcode.php:53
+#: vsel_shortcode.php:53
+#@ eventlist
+msgid "Time: "
+msgstr "Час: "
+
+#: vsel_past_events_shortcode.php:59
+#: vsel_shortcode.php:59
+#@ eventlist
+msgid "Location: "
+msgstr "Місце: "
+
+#: vsel_past_events_shortcode.php:65
+#: vsel_shortcode.php:65
+#@ eventlist
+msgid "More info: "
+msgstr "Більше інформації: "
+
+#: vsel_past_events_shortcode.php:69
+#: vsel_shortcode.php:69
+#@ eventlist
+msgid "click here"
+msgstr "натисніть тут"
+
+#: vsel_past_events_shortcode.php:85
+#: vsel_shortcode.php:85
+#@ eventlist
+msgid "&laquo; Next Events"
+msgstr "&laquo; Наступна Подія"
+
+#: vsel_past_events_shortcode.php:86
+#: vsel_shortcode.php:86
+#@ eventlist
+msgid "Previous Events &raquo;"
+msgstr "Попередня Подія &raquo;"
+
+#: vsel_past_events_shortcode.php:93
+#@ eventlist
+msgid "There are no past events."
+msgstr "Hемає минулі Подій."
+
+#: vsel_shortcode.php:93
+#@ eventlist
+msgid "There are no upcoming events."
+msgstr "Немає майбутніх Подій."
+
