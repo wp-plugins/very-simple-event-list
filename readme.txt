@@ -58,7 +58,7 @@ Question? Please take a look at the FAQ section.
 
 
 = Translation =
-Dutch, German and Swedish translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, Swedish and Ukrainian translation included. More translations are very welcome! Please contact me via my website.
 
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
