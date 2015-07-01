@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.6
+Version: 1.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, upcoming, past, event, events, list, custom, post, type, datepicke
 
 
 == Changelog ==
+Version 1.7
+- added Brazilian Portuguese translation (thanks Fernando Sousa)
+- added Ukrainian translation (thanks Kuda Poltava Team)
+
 Version 1.6
 - added German translation (thanks Andrea)
 - updated FAQ
@@ -46,7 +50,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple plugin to add a list of your upcoming events in your WordPress blog. 
+This is a very simple plugin to add a list of your upcoming or past events in your WordPress blog. 
 
 Besides the default title and description it contains event date, event time, event location, event URL and featured image. So no event categories or event tags. That's it.
 
@@ -58,7 +62,7 @@ Question? Please take a look at the FAQ section.
 
 
 = Translation =
-Dutch, German, Swedish and Ukrainian translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, Swedish, Brazilian Portuguese and Ukrainian translation included. More translations are very welcome! Please contact me via my website.
 
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
@@ -67,7 +71,7 @@ I have used this tutorial for developing the Very Simple Event List plugin:
 
 http://code.tutsplus.com/tutorials/creating-upcoming-events-plugin-in-wordpress-custom-post-type-and-the-dashboard--wp-35404
 
-This script is released under the GNU General Public License v3 or later.
+This tutorial is released under the GNU General Public License v3 or later.
 
 Enjoy,
 Guido
