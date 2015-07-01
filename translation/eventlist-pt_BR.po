@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Very Simple Event List v1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-28 19:24+0100\n"
+"PO-Revision-Date: Wed Jul 01 2015 18:56:56\n"
+"Last-Translator: Fernando Sousa\n"
+"Language-Team: \n"
+"Language: Portuguese (Brazil)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: pt_BR\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. translators: plugin header field 'Name'
+#: vsel.php:0
+msgid "Very Simple Event List"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: vsel.php:0
+msgid "This is a very simple plugin to display a list of your upcoming events. Use shortcode [vsel] to display your upcoming events on a page. For more info please check readme file."
+msgstr "Este é um plugin muito simples para exibir uma lista de próximos eventos. Use o código [vsel] para exibir seus próximos eventos em uma página. Para mais informações, por favor, verifique o arquivo readme."
+
+#. translators: plugin header field 'Author'
+#: vsel.php:0
+msgid "Guido van der Leest"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: vsel.php:0
+msgid "http://www.guidovanderleest.nl"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: vsel.php:0
+msgid "1.6"
+msgstr ""
+
+#: vsel.php:44
+#: vsel.php:56
+msgid "Events"
+msgstr "Eventos"
+
+#: vsel.php:45
+msgid "Event"
+msgstr "Evento"
+
+#: vsel.php:46
+msgid "Add New"
+msgstr "Adicionar"
+
+#: vsel.php:47
+msgid "Add New Event"
+msgstr "Adicionar novo evento"
+
+#: vsel.php:48
+msgid "Edit Event"
+msgstr "Editar evento"
+
+#: vsel.php:49
+msgid "New Event"
+msgstr "Novo evento"
+
+#: vsel.php:50
+msgid "View Event"
+msgstr "Ver evento"
+
+#: vsel.php:51
+msgid "Search Events"
+msgstr "Buscar eventos"
+
+#: vsel.php:52
+msgid "No events found"
+msgstr "Nenhum evento encontrado"
+
+#: vsel.php:53
+msgid "No events found in Trash"
+msgstr "Nenhum evento encontrado na Lixeira"
+
+#: vsel.php:74
+msgid "Event Info"
+msgstr "Informações do evento"
+
+#: vsel.php:99
+#: vsel.php:155
+msgid "Event Date"
+msgstr "Data do evento"
+
+#: vsel.php:101
+#: vsel.php:156
+msgid "Event Time"
+msgstr "Horário do evento"
+
+#: vsel.php:103
+#: vsel.php:157
+msgid "Event Location"
+msgstr "Local do evento"
+
+#: vsel.php:105
+msgid "Event URL"
+msgstr "URL do evento"
+
+#: vsel_past_events_shortcode.php:48
+#: vsel_shortcode.php:48
+msgid "Date: "
+msgstr "Data: "
+
+#: vsel_past_events_shortcode.php:53
+#: vsel_shortcode.php:53
+msgid "Time: "
+msgstr "Horário: "
+
+#: vsel_past_events_shortcode.php:59
+#: vsel_shortcode.php:59
+msgid "Location: "
+msgstr "Local: "
+
+#: vsel_past_events_shortcode.php:65
+#: vsel_shortcode.php:65
+msgid "More info: "
+msgstr "Mais informações: "
+
+#: vsel_past_events_shortcode.php:69
+#: vsel_shortcode.php:69
+msgid "click here"
+msgstr "Clique aqui"
+
+#: vsel_past_events_shortcode.php:85
+#: vsel_shortcode.php:85
+msgid "&laquo; Next Events"
+msgstr "&laquo; Próximos eventos"
+
+#: vsel_past_events_shortcode.php:86
+#: vsel_shortcode.php:86
+msgid "Previous Events &raquo;"
+msgstr "Eventos anteriores &raquo;"
+
+#: vsel_shortcode.php:93
+msgid "There are no upcoming events."
+msgstr "Não há próximos eventos."
+
+#: vsel_past_events_shortcode.php:93
+msgid "There are no past events."
+msgstr "Não há eventos anteriores."
