@@ -93,7 +93,7 @@ For backend open folder 'js' and file 'vsel_datepicker' and change date format i
 
 And open file 'vsel' and change date format (2x) in: 'Y-m-d'.
 
-For frontend open files 'vsel_shortcode' and 'vsel_past_events_shortcode' and change date format in: 'F jS, Y'.
+For frontend open files 'vsel_shortcode' and 'vsel_past_events_shortcode' and change date format in: 'F j, Y'.
 
 = How can I set number of events on a page? =
 VSEL plugin uses the number set in WP dashboard Settings > Reading.
