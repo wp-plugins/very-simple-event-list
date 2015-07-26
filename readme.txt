@@ -1,6 +1,6 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.7
+Version: 1.8
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, upcoming, past, event, events, list, custom, post, type, datepicke
 
 
 == Changelog ==
+Version 1.8
+- updated language files
+- added French translation (thanks Claire Delavallee)
+- added Portuguese translation (thanks Marta Ferreira)
+
 Version 1.7
 - added Brazilian Portuguese translation (thanks Fernando Sousa)
 - added Ukrainian translation (thanks Kuda Poltava Team)
@@ -62,7 +67,7 @@ Question? Please take a look at the FAQ section.
 
 
 = Translation =
-Dutch, German, Swedish, Brazilian Portuguese and Ukrainian translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, French, Swedish, Portuguese, Brazilian Portuguese and Ukrainian translation included. More translations are very welcome! Please contact me via my website.
 
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
