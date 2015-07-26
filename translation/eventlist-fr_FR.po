@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Event List\n"
-"POT-Creation-Date: 2015-07-26 17:39+0200\n"
-"PO-Revision-Date: 2015-07-27 00:42+0200\n"
+"POT-Creation-Date: 2015-07-26 19:37+0200\n"
+"PO-Revision-Date: 2015-07-26 19:44+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: de_DE\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: vsel.php\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
@@ -22,99 +22,99 @@ msgstr ""
 
 #: vsel.php:44 vsel.php:56
 msgid "Events"
-msgstr "Veranstaltungen"
+msgstr "Événements"
 
 #: vsel.php:45
 msgid "Event"
-msgstr "Veranstaltung"
+msgstr "Événement"
 
 #: vsel.php:46
 msgid "Add New"
-msgstr "Neue hinzufügen"
+msgstr "Ajouter"
 
 #: vsel.php:47
 msgid "Add New Event"
-msgstr "Neue Veranstaltung hinzufügen"
+msgstr "Ajouter événement"
 
 #: vsel.php:48
 msgid "Edit Event"
-msgstr "Veranstaltung bearbeiten"
+msgstr "Modifier événement"
 
 #: vsel.php:49
 msgid "New Event"
-msgstr "Neue Veranstaltung"
+msgstr "Nouvel événement"
 
 #: vsel.php:50
 msgid "View Event"
-msgstr "Veranstaltung ansehen"
+msgstr "Afficher événement"
 
 #: vsel.php:51
 msgid "Search Events"
-msgstr "Veranstaltungen suchen"
+msgstr "Chercher événement"
 
 #: vsel.php:52
 msgid "No events found"
-msgstr "Keine Veranstaltungen gefunden"
+msgstr "Aucun événement trouvé"
 
 #: vsel.php:53
 msgid "No events found in Trash"
-msgstr "Keine Veranstaltungen im Papierkorb gefunden"
+msgstr "Aucun événement trouvé dans la Corbeille"
 
 #: vsel.php:74
 msgid "Event Info"
-msgstr "Veranstaltungsinformation"
+msgstr "Détails événement"
 
 #: vsel.php:99 vsel.php:155
 msgid "Event Date"
-msgstr "Datum der Veranstaltung"
+msgstr "Date événement"
 
 #: vsel.php:101 vsel.php:156
 msgid "Event Time"
-msgstr "Uhrzeit der Veranstaltung"
+msgstr "Heure événement"
 
 #: vsel.php:103 vsel.php:157
 msgid "Event Location"
-msgstr "Veranstaltungsort"
+msgstr "Lieu événement"
 
 #: vsel.php:105
 msgid "Event URL"
-msgstr "Veranstaltungs URL"
+msgstr "URL événement"
 
 #: vsel_past_events_shortcode.php:48 vsel_shortcode.php:48
 msgid "Date: "
-msgstr "Datum: "
+msgstr "Date: "
 
 #: vsel_past_events_shortcode.php:53 vsel_shortcode.php:53
 msgid "Time: "
-msgstr "Uhrzeit: "
+msgstr "Heure: "
 
 #: vsel_past_events_shortcode.php:59 vsel_shortcode.php:59
 msgid "Location: "
-msgstr "Ort: "
+msgstr "Lieu: "
 
 #: vsel_past_events_shortcode.php:65 vsel_shortcode.php:65
 msgid "More info: "
-msgstr "Mehr Informationen: "
+msgstr "Infos complémentaires: "
 
 #: vsel_past_events_shortcode.php:69 vsel_shortcode.php:69
 msgid "click here"
-msgstr "hier klicken"
+msgstr "cliquez ici"
 
 #: vsel_past_events_shortcode.php:85 vsel_shortcode.php:85
 msgid "&laquo; Next Events"
-msgstr "&laquo; Nächste Veranstaltungen"
+msgstr "&laquo; Prochains événements"
 
 #: vsel_past_events_shortcode.php:86 vsel_shortcode.php:86
 msgid "Previous Events &raquo;"
-msgstr "Vorhergehende Veranstaltungen &raquo;"
+msgstr "Evénements précédents &raquo;"
 
 #: vsel_past_events_shortcode.php:93
 msgid "There are no past events."
-msgstr "Es gibt noch keine vergangenen Veranstaltungen."
+msgstr "Il n’y a pas d’événement à venir."
 
 #: vsel_shortcode.php:93
 msgid "There are no upcoming events."
-msgstr "Es gibt noch keine zukünftige Veranstaltungen."
+msgstr "Il n’y a pas d’événement passé."
 
 #. Plugin Name of the plugin/theme
 msgid "Very Simple Event List"
@@ -126,9 +126,9 @@ msgid ""
 "[vsel] to display your events on a page. For more info please check readme "
 "file."
 msgstr ""
-"Dies ist ein sehr einfaches Plugin, um eine Liste der Veranstaltungen "
-"anzuzeigen. Verwenden Shortcode [VSEL], um die Veranstaltungen auf einer "
-"Seite anzuzeigen. Für mehr Informationen klicken Sie bitte auf Readme-Datei."
+"C’est une extension très simple pour afficher une liste de vos événements. "
+"Utilisez le shortcode [vsel] pour insérer la liste dans une de vos pages. "
+"Pour plus de détails, consultez le fichier readme."
 
 #. Author of the plugin/theme
 msgid "Guido van der Leest"

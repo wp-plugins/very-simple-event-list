@@ -1,19 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Event List\n"
-"POT-Creation-Date: 2015-07-26 18:58+0200\n"
-"PO-Revision-Date: 2015-07-26 19:31+0200\n"
+"POT-Creation-Date: 2015-07-27 00:11+0200\n"
+"PO-Revision-Date: 2015-07-27 00:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: uk\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: vsel.php\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
@@ -23,99 +22,99 @@ msgstr ""
 
 #: vsel.php:44 vsel.php:56
 msgid "Events"
-msgstr "Події"
+msgstr "Eventos"
 
 #: vsel.php:45
 msgid "Event"
-msgstr "Подія"
+msgstr "Evento"
 
 #: vsel.php:46
 msgid "Add New"
-msgstr "Додати нову"
+msgstr "Adicionar Novo"
 
 #: vsel.php:47
 msgid "Add New Event"
-msgstr "Додати нову Подію"
+msgstr "Adicionar Novo Evento"
 
 #: vsel.php:48
 msgid "Edit Event"
-msgstr "Редагувати Подію"
+msgstr "Editar Evento"
 
 #: vsel.php:49
 msgid "New Event"
-msgstr "Нова Подія"
+msgstr "Novo Evento"
 
 #: vsel.php:50
 msgid "View Event"
-msgstr "Переглянути Подію"
+msgstr "Ver Evento"
 
 #: vsel.php:51
 msgid "Search Events"
-msgstr "Пошук Подій"
+msgstr "Procurar Eventos"
 
 #: vsel.php:52
 msgid "No events found"
-msgstr "Події не знайдені"
+msgstr "Nenhum evento encontrado"
 
 #: vsel.php:53
 msgid "No events found in Trash"
-msgstr "Події не знайдені у Кошику"
+msgstr "Nenhum evento no Lixo"
 
 #: vsel.php:74
 msgid "Event Info"
-msgstr "Інформація про Подію"
+msgstr "Informação do Evento"
 
 #: vsel.php:99 vsel.php:155
 msgid "Event Date"
-msgstr "Дата Події"
+msgstr "Data do Evento"
 
 #: vsel.php:101 vsel.php:156
 msgid "Event Time"
-msgstr "Час Події"
+msgstr "Horário do Evento"
 
 #: vsel.php:103 vsel.php:157
 msgid "Event Location"
-msgstr "Місце Події"
+msgstr "Localização do Evento"
 
 #: vsel.php:105
 msgid "Event URL"
-msgstr "URL Події"
+msgstr "URL do Evento"
 
 #: vsel_past_events_shortcode.php:48 vsel_shortcode.php:48
 msgid "Date: "
-msgstr "Дата: "
+msgstr "Data: "
 
 #: vsel_past_events_shortcode.php:53 vsel_shortcode.php:53
 msgid "Time: "
-msgstr "Час: "
+msgstr "Tempo: "
 
 #: vsel_past_events_shortcode.php:59 vsel_shortcode.php:59
 msgid "Location: "
-msgstr "Місце: "
+msgstr "Localização: "
 
 #: vsel_past_events_shortcode.php:65 vsel_shortcode.php:65
 msgid "More info: "
-msgstr "Більше інформації: "
+msgstr "Mais informações: "
 
 #: vsel_past_events_shortcode.php:69 vsel_shortcode.php:69
 msgid "click here"
-msgstr "натисніть тут"
+msgstr "clique aqui"
 
 #: vsel_past_events_shortcode.php:85 vsel_shortcode.php:85
 msgid "&laquo; Next Events"
-msgstr "&laquo; Наступна Подія"
+msgstr "&laquo; Próximos Eventos"
 
 #: vsel_past_events_shortcode.php:86 vsel_shortcode.php:86
 msgid "Previous Events &raquo;"
-msgstr "Попередня Подія &raquo;"
+msgstr "Eventos Anteriores &raquo;"
 
 #: vsel_past_events_shortcode.php:93
 msgid "There are no past events."
-msgstr "Hемає минулі Подій."
+msgstr "Não há próximos eventos."
 
 #: vsel_shortcode.php:93
 msgid "There are no upcoming events."
-msgstr "Немає майбутніх Подій."
+msgstr "Não há eventos passados."
 
 #. Plugin Name of the plugin/theme
 msgid "Very Simple Event List"
@@ -127,9 +126,9 @@ msgid ""
 "[vsel] to display your events on a page. For more info please check readme "
 "file."
 msgstr ""
-"Це дуже простий плагін для відображення списку майбутніх подій. "
-"Використовуйте шорткод [vsel] для відображення майбутніх подій на сторінці. "
-"Для одержання додаткової інформації, будь ласка, перевірте файл readme."
+"Este é um plugin muito simples para mostrar os teus eventos em lista. Usa o "
+"código [vsel] para mostrar os próximos eventos numa página. Para mais "
+"informações vê o ficheiro readme."
 
 #. Author of the plugin/theme
 msgid "Guido van der Leest"
