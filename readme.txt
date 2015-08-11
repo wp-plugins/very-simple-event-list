@@ -1,15 +1,18 @@
 === Very Simple Event List ===
 Contributors: Guido07111975
-Version: 1.8
+Version: 1.9
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 Tags: simple, upcoming, past, event, events, list, custom, post, type, datepicker
 
 
 == Changelog ==
+Version 1.9
+- updated file readme
+
 Version 1.8
 - updated language files
 - added French translation (thanks Claire Delavallee)
@@ -72,9 +75,7 @@ Dutch, German, French, Swedish, Portuguese, Brazilian Portuguese and Ukrainian t
 = CREDITS =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-I have used this tutorial for developing the Very Simple Event List plugin:
-
-http://code.tutsplus.com/tutorials/creating-upcoming-events-plugin-in-wordpress-custom-post-type-and-the-dashboard--wp-35404
+I have used <a href="http://code.tutsplus.com/tutorials/creating-upcoming-events-plugin-in-wordpress-custom-post-type-and-the-dashboard--wp-35404">this</a> tutorial for developing this plugin.
 
 This tutorial is released under the GNU General Public License v3 or later.
 
@@ -98,7 +99,7 @@ For backend open folder 'js' and file 'vsel_datepicker' and change date format i
 
 And open file 'vsel' and change date format (2x) in: 'Y-m-d'.
 
-For frontend open files 'vsel_shortcode' and 'vsel_past_events_shortcode' and change date format in: 'F j, Y'.
+For frontend open files 'vsel_shortcode' and 'vsel_past_events_shortcode' and change date format in: 'F j Y'.
 
 = How can I set number of events on a page? =
 VSEL plugin uses the number set in WP dashboard Settings > Reading.
