@@ -3,6 +3,7 @@
 #vsel {clear:both; width:100%; display:block; margin:0 auto 5px;}
 #vsel:after {content:''; display:block; clear:both;}
 #vsel p {margin:0 0 10px;}
+#vsel p.date {color:#4f9930;}
 #vsel h4 {margin:0 0 10px;}
 #vsel .vsel-content {clear:both; margin:0 0 20px; padding:0 0 10px; border-bottom:1px solid #ccc;}
 #vsel .vsel-content:after {content:''; display:block; clear:both;}
